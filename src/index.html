@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <header>
+      <img src="/imgs/logos/logo.png" class="imgc">
+      <nav>
+        <a href="index.html" class="Itens-cabecalho">Quem somos</a>
+        <a href="produtos.html" class="Itens-cabecalho">Produtos</a>
+        <a href="cliente.html" class="Itens-cabecalho">Carrinho</a>
+        <a href="contato.html" id="id-item">Contato</a>
+      </nav>
+          <form>
+            <input  type="text" class="caixa" placeholder="Procure">
+            <button class="botao" ><b>Procure</b></button>
+          </form>
+        </div>
+    </header>
+    <div class="carrosel">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/imgs/comidas/cast1.jpeg" class="slide" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Castanhas torradas</h5>
+              <p>Tipo exportação, melhor qualidade e preço para você!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/imgs/comidas/cast2.jpeg" class="slide" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Castanhas Doce</h5>
+              <p>Um docinho pratico para comer no dia a dia!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/imgs/comidas/cast3.jpeg" class="slide" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Castanhas do pará</h5>
+              <p>Ótimo para você que esta fazendo dieta!</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button"
+          data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button"
+          data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div><div class="texto"><b>Quem somos?</b><br>O significado do nome é
+          referente ao filho dos donos, cujo o nome é Beatriz e Gustavo, por
+          isso B&G.
+          De inicio era apenas um box na Feirinha da beira-mar e atualmente
+          temos três, duas localizadas na Beira-mar e uma no Giga mall.
+          <br><br><b>Entregamos para todo o Brasil?</b><br>Sim, enviamos por correios para todo o Brasil com um precinho especial, 
+          e fazemos entregas na região metropolitana de Fortaleza.
+        </div></div>
+  <footer class="b">
+      <h2 class="titulo-rodape"> <span class="spn-footer">A melhor!</span></h2>
+      <p class="copy">B&G 2023</p>
+      <p class="copy">&copy Copyrignt Infor2</p>
+      <div class="social-list">
+        <ul class="icons">
+          <li><a href="https://www.instagram.com/bg_castanhas/"><img class="insta" src="/imgs/logos/icon.png"></a></li>
+          <li><a href="https://www.gigamall.com.br/lojas/b-g-castanhas/"><img class="giga" src="/imgs/logos/giga.png"></a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+<link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+  crossorigin="anonymous">
+<script async
+  src="https://cdn.jsdelivr.net/npm/es-module-shims@1/dist/es-module-shims.min.js"
+  crossorigin="anonymous"></script>
+<script type="importmap">
+ {
+   "imports": {
+     "@popperjs/core": "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/esm/popper.min.js",
+     "bootstrap": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.esm.min.js"
+   }
+ }
+ </script>
+<script type="module">
+   import * as bootstrap from 'bootstrap'
+   new bootstrap.Popover(document.getElementById('popoverButton'))
+ </script>
+</html>
